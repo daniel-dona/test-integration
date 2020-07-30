@@ -6,6 +6,8 @@ python:
 install:
 - pip install -r test-lib/requirements.txt
 
+script: pytest
+
 deploy:
   provider: pypi
   user: "daniel-dona"
