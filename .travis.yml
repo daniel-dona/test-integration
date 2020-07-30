@@ -3,9 +3,7 @@ language: python
 python:
 - '3.7'
 
-install:
-- pip install -r test-lib/requirements.txt
-script: true
+script: true #Debe devolver "exit 0", no usado en este caso
 
 before_deploy:
 - cd test-lib/
