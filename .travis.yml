@@ -1,14 +1,11 @@
 language: python
-
 python:
 - '3.7'
-
 install:
 - pip install -r test-lib/requirements.txt
-
 script: pytest
-
 deploy:
   provider: pypi
-  user: "daniel-dona"
-
+  user: daniel-dona
+  password:
+    secure: AcN7AG2dS4PENaWLi9zL+6xgw6NWMAk6+8Je3l6bqqvg4bheleOent+YGSJ+pfxSSDvF5J0GOU+dk7DQrcoojWqBeob+cCOgATOrUZoCvYj/7Kw9h3At+5MYn38DKZ0+TqaEOeVuJIDwC6b8OeQ/o6+RKXbOQ0ZOAN1IlYNyWOOf1mZFt7esukE8HoqqyIqnbVjqH5BSeI6Yytrt0zrgLnZn0BzWvqicRqz8aE5XWxpU/lLmqZ6v/TrtP0hhdVAiDf9t8+TYCPoWlZKRmRKpu7ljYPK465J3JapNz3+jsRDAbafXLhGs6ei/LQOpjO1elZgdY5Axl9VkE8CCGGLpg2v9Nva/vBJevODPj4QQGGV20DDNNiUvIZbfTZnfa+VYVD6py6ltg9utS3upxnXHpxz7HX3UpA0YupZKCGdeSNYdKy+CKZbkZyOzVyqskjRTtEsJLsRVyz+B+qY3B+0VKNJWXbwmoEfFOdjSycFWaESWZSieHdp5HZW5YBx3Q3SS22Py7lEMSMgBGdAbEeCGcZFusfNZa7fV5HrIU2EZa0sTPzUNVOE3NuOaNzffX3XnM5XUvu1iq7ddcLC+RkEE7nywmO2gZgzGAbWkhPT0yilamaqEPA1kiNTyndZozPHEjJ+gJ73tmdBpqOKWFAkvDwnW583Ieow+O3nMO9IUNBw=
